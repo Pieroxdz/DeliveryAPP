@@ -1,6 +1,7 @@
 #footer {
     background-color: var(--secondary);
     padding-top: 5rem;
+    overflow-x: hidden;
 }
 
 .footer-structure {
