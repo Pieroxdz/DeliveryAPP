@@ -1,0 +1,128 @@
+:root {
+    /* Fuentes */
+    --fontPrimary: 'Roboto', sans-serif;
+
+    /* Colores */
+    --primary: #e8505b;
+    --secondary: #455a64;
+    --black: #000;
+    --white: #FFFFFF;
+    --lightGray: #eceeef;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--fontPrimary);
+    font-size: 1.6rem;
+}
+
+p {
+    color: var(--black);
+    font-size: 2rem;
+}
+
+[class*="wrapper"] {
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0 0 5rem 0;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.6rem;
+}
+
+h3 {
+    font-size: 3.2rem;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.bg-primario {
+    background-color: var(--primary);
+}
+
+
+/* El color de background y texto puede cambiar */
+.btn {
+    font-size: 2rem;
+    padding: 1.2rem 3rem;
+    border-radius: 1rem;
+    font-weight: 700;
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .3s ease;
+    border: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .btn {
+        width: auto;
+    }
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.btn-primary:hover {
+    background-color: #c94545;
+}
+
+
+.btn-secondary {
+    background-color: var(--secondary);
+    color: var(--white);
+}
+
+.btn-secondary:hover {
+    background-color: #37474f;
+}

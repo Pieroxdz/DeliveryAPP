@@ -1,0 +1,28 @@
+#repartidores {
+    padding: 5rem 0;
+}
+
+#repartidores h2 {
+    text-align: center;
+    color: var(--secondary);
+}
+
+@media (min-width: 768px) {
+    .repartidores-structure {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5rem;
+    }
+}
+
+.repartidores-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.repartidores-content p {
+    line-height: 1.5;
+    color: var(--secondary);
+}

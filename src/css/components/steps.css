@@ -1,0 +1,39 @@
+#steps {
+    margin-top: 5rem;
+}
+
+.steps-content {
+    background-color: var(--primary);
+}
+
+.steps-content h2 {
+    text-align: center;
+    color: var(--white);
+
+    span {
+        display: block;
+        font-size: 1.8rem;
+    }
+}
+
+#steps>img {
+    margin-bottom: -1px;
+}
+
+@media (min-width: 768px) {
+    .steps-structure {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5rem;
+    }
+}
+
+
+.step img {
+    transition: transform 300ms;
+}
+
+
+.step img:hover {
+    transform: rotate(-4deg) scale(1.1);
+}

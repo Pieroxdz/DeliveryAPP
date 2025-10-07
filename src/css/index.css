@@ -1,0 +1,9 @@
+@import url(./base/global.css);
+@import url(./components/header.css);
+@import url(./components/form.css);
+@import url(./components/steps.css);
+@import url(./components/testimonials.css);
+@import url(./components/favorites.css);
+@import url(./components/repartidores.css);
+@import url(./components/tiendas.css);
+@import url(./components/footer.css);
